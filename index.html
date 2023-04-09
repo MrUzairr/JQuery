@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JQuery</title>
+        <style>
+            #AID{
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                color: chartreuse;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1 id="AID">Muhammad Uzair</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum maxime cum ut laboriosam accusamus
+            consequatur.
+        </p>
+        <button id="btnPress">press</button>
+    </body>
+    <script src="js/jquery-3.6.4.min.js"></script>
+    <script src="js/myJQurey.js">
+        $(document).ready(function () {
+            console.log("We are using JQuery");
+            console.log($);
+            console.log(jQuery);
+
+        }); 
+        console.log('Button')
+        $('button').text('AmadIrfan')
+    </script>
+
+</html>
